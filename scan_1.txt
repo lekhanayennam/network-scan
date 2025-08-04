@@ -1,0 +1,23 @@
+# Nmap 7.97 scan initiated Mon Aug  4 19:14:23 2025 as: nmap -sS -oN scan.txt 192.168.1.0/24
+Nmap scan report for RTK_GW (192.168.1.1)
+Host is up (0.0046s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT    STATE    SERVICE
+21/tcp  filtered ftp
+22/tcp  filtered ssh
+23/tcp  filtered telnet
+53/tcp  open     domain
+80/tcp  open     http
+443/tcp open     https
+MAC Address: F8:C4:F3:B8:08:A0 (Shanghai Infinity Wireless Technologies)
+
+Nmap scan report for DESKTOP-METOAK7 (192.168.1.9)
+Host is up (0.0013s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+5357/tcp open  wsdapi
+
+# Nmap done at Mon Aug  4 19:14:56 2025 -- 256 IP addresses (2 hosts up) scanned in 32.94 seconds
